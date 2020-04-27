@@ -27,23 +27,26 @@ public class Lunch_Main extends JFrame implements ActionListener {
 
 	private JTextField tf_result;
 
-	JButton add_btn = new JButton("\uCD94\uAC00");
+	JButton add_btn = new JButton("Ãß°¡");
 
-	JButton delete_btn = new JButton("\uC0AD\uC81C");
+	JButton delete_btn = new JButton("»èÁ¦");
 
-	JButton start_btn = new JButton("\uC2E4     \uD589");
+	JButton start_btn = new JButton("»Ì±â");
 
 	List list = new List();
 
 	String[] str;
 
-	JButton search_btn = new JButton("\uAC80 \uC0C9");
+	JButton search_btn = new JButton("°Ë»ö");
 
 	public Lunch_Main() {
 
 		config();
 
 		actionstart();
+		
+		setTitle("Á¡½É¸Þ´º »Ì±â ÇÁ·Î±×·¥"); // Å¸ÀÌÆ² Ãß°¡
+		setResizable(false); // Ã¢ Å©±â °íÁ¤
 
 	}
 
@@ -77,11 +80,15 @@ public class Lunch_Main extends JFrame implements ActionListener {
 
 		contentPane.add(add_btn);
 
+		add_btn.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 12));
+		
 		delete_btn.setBounds(589, 468, 62, 23);
 
 		contentPane.add(delete_btn);
 
-		start_btn.setFont(new Font("±¼¸²", Font.PLAIN, 18));
+		delete_btn.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 12));
+		
+		start_btn.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 18));
 
 		start_btn.setBounds(180, 382, 156, 74);
 
@@ -89,7 +96,7 @@ public class Lunch_Main extends JFrame implements ActionListener {
 
 		tf_result = new JTextField();
 
-		tf_result.setFont(new Font("±¼¸²", Font.BOLD, 20));
+		tf_result.setFont(new Font("¸¼Àº°íµñ", Font.BOLD, 20));
 
 		tf_result.setBackground(Color.PINK);
 
@@ -103,9 +110,9 @@ public class Lunch_Main extends JFrame implements ActionListener {
 
 		tf_result.setColumns(10);
 
-		JLabel label = new JLabel("\uC624\uB298\uC758 \uC810\uC2EC\uBA54\uB274");
+		JLabel label = new JLabel("¿À´ÃÀÇ Á¡½É ¸Þ´º´Â?");
 
-		label.setFont(new Font("±¼¸²", Font.BOLD, 20));
+		label.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 20));
 
 		label.setHorizontalAlignment(SwingConstants.CENTER);
 
@@ -119,7 +126,7 @@ public class Lunch_Main extends JFrame implements ActionListener {
 
 		contentPane.add(scrollPane);
 
-		list.setFont(new Font("±¼¸²", Font.BOLD, 18));
+		list.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 18));
 
 		scrollPane.setViewportView(list);
 
