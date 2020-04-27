@@ -96,7 +96,7 @@ public class Lunch_Main extends JFrame implements ActionListener {
 
 		tf_result = new JTextField();
 
-		tf_result.setFont(new Font("¸¼Àº°íµñ", Font.BOLD, 20));
+		tf_result.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 20));
 
 		tf_result.setBackground(Color.PINK);
 
@@ -215,7 +215,7 @@ public class Lunch_Main extends JFrame implements ActionListener {
 
 				Desktop.getDesktop().browse(new URI("https://www.google.co.kr/search?"
 
-						+ "q=Á¾°¢¿ª+" + tf_result.getText() + "&oq=Á¾°¢¿ª+" + tf_result.getText()
+						+ "q=´ë±¸´ë+" + tf_result.getText() + "&oq=´ë±¸´ë+" + tf_result.getText()
 
 						+ "&aqs=chrome"
 
