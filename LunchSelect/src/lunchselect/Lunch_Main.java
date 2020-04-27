@@ -144,27 +144,21 @@ public class Lunch_Main extends JFrame implements ActionListener {
 
 	private void add() {
 
-		list.add("Ã»Áø½Ä´ç");
-
-		list.add("¶Ò¹è±âÁı");
-
-		list.add("±Â¸ğ´×");
-
 		list.add("¸¾½ºÅÍÄ¡");
 
-		list.add("¼ø´ë±¹¹ä");
+		list.add("±¹¹ä");
 
-		list.add("½Ò±¹¼ö");
+		list.add("Ã»Ãá¶ó¸é");
 
-		list.add("ÇÑ¼Ü");
+		list.add("È«´ëºÒ°í±â");
 
-		list.add("À°°³Àå");
+		list.add("ÇĞ½Ä");
 
-		list.add("¼øµÎºÎÂî°³");
+		list.add("¹ÌÁîÄÁÅ×ÀÌ³Ê");
 
-		list.add("ºÎ´ëÂî°³");
+		list.add("Âò´ß");
 
-		list.add("¸Ô½¬µ·³ª");
+		list.add("Áß±¹Áı");
 
 	}
 
