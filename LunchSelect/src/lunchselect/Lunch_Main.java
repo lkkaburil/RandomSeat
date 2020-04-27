@@ -120,6 +120,12 @@ public class Lunch_Main extends JFrame implements ActionListener {
 
 		contentPane.add(label);
 
+		JLabel label2 = new JLabel("¸Þ´º ¸ñ·Ï");
+		label2.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 18));
+		label2.setHorizontalAlignment(SwingConstants.CENTER);
+		contentPane.add(label2);
+		label2.setBounds(480,15,200,30);
+		
 		JScrollPane scrollPane = new JScrollPane();
 
 		scrollPane.setBounds(484, 50, 190, 406);
