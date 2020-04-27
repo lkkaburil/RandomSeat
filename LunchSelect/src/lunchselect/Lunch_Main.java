@@ -165,7 +165,7 @@ public class Lunch_Main extends JFrame implements ActionListener {
 		list.add("Âò´ß");
 
 		list.add("Áß±¹Áý");
-
+		list.add("Å×½ºÆ®");
 	}
 
 	@Override
